@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import FirstJob from './skills';
+
 
 
 class Resume extends Component {
@@ -69,19 +69,19 @@ class Resume extends Component {
               <h2 style={{fontFamily: 'Italic'}}>Skills</h2>
               <Skills
                 skill="HTML/CSS"
-                progress={90}
+                progress={80}
                 />
                 <Skills
                   skill="React"
-                  progress={70}
+                  progress={30}
                   />
                   <Skills
                     skill="javascript"
-                    progress={50}
+                    progress={20}
                     />                
                     <Skills
                       skill="NodeJS"
-                      progress={50}
+                      progress={20}
                       />            
 
 
