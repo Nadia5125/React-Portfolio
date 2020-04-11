@@ -15,5 +15,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "4/5/2020",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadia5125/React-Portfolio.git"
+  },
+  "author": "Nadia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nadia5125/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nadia5125/React-Portfolio#readme"
 }
