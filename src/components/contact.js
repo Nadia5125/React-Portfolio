@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent, Button } from 'react-mdl';
 import App from '../App';
 
 
@@ -29,7 +29,7 @@ class Contact extends Component {
                   <br></br>
                   <textarea  style={{width: '300px', height: '90px'}} className="form-control" rows="5"></textarea>
               </div>
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <Button type="submit" className="btn btn-outline-secondary" style={{backgroundColor: '#4B79A1', color: 'white'}}>Submit</Button>
             </div>
           </form>          
 

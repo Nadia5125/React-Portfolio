@@ -8,13 +8,15 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img 
-              src="https://avatars2.githubusercontent.com/u/54503646?s=460&u=5e554e2cf5dd9bb934d884b2ebb4312665b1e62a&v=4"
-              alt="avatar"
-              className="avatar-img" 
-              />
+            <div className="card-img" style={{width: '50%'}}>
+              <img 
+                src="https://avatars2.githubusercontent.com/u/54503646?s=460&u=5e554e2cf5dd9bb934d884b2ebb4312665b1e62a&v=4"
+                alt="avatar"
+                className="avatar-img" 
+                />
+            </div>
 
-            <div className="banner-text" style={{ width: '80%'}}>>
+            <div className="banner-text" style={{ width: '80%'}}>
               <h1 style={{fontSize: '20px', fontFamily: 'Italic'}}>Nadia</h1>
               <h1 style={{fontSize: '20px', fontFamily: 'Italic'}}>Full Stack Web Developer</h1>
             <hr/> 

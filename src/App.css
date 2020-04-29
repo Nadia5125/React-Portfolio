@@ -7,16 +7,25 @@
 
 
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(57, 99, 136), #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(46, 86, 124), rgb(38, 89, 133)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
+/*this hover for the link/button on the navbar*/
+.header-color a:hover,
+.header-color a:active {
+  color: rgb(235, 114, 66);
+}
+
+
+.landing-grid { 
+  /* background-color: whitesmoke;  */
+  background-image:  linear-gradient(rgba(8, 33, 66, 0.842), rgb(6, 26, 46)),url(./img/tech.jpg);
+  text-align: center;background-repeat: no-repeat;
+  background-size: cover;
+  height: 737px;  
   position: fixed;
   top: 0;
   left: 0;
@@ -91,14 +100,37 @@ h3 {
 
 
 /* contact page css */
+/* 
+.img-holder {
+  background-color: rgba(31, 56, 102, 0.897);
+  position: relative;
+  top: 24px;
+  width: 30%;
+  height: 320px;
+  left: 620px;
+  border-radius: 5px;
+  margin-top: 60px;
+ text-align: center;
+} */
+
 
 .avatar-img {
+  position: relative;
   height: 250px;
-  padding-top: 5em;
-  border-bottom-right-radius: 120px;
-  border-top-left-radius: 190px;
-  border-top-right-radius: 15px;
-  top: 200px;
+  padding-top: 5em;    
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;  */
+  top: 25px;
+}
+
+
+.card-img {
+  position: relative; 
+  /* background-color: rgb(240, 248, 255);   */
+  background-color: rgba(77, 30, 3, 0.726); 
+  left: 430px;
 }
 
 .contact {
@@ -109,7 +141,7 @@ h3 {
 }
 
 .banner-text {
-  background-color: rgba(0, 0, 0, 0.829);
+  background-color: rgb(23, 51, 78);  
   opacity: .8;
   width: 55%;
   height: 45%;
@@ -152,6 +184,12 @@ h3 {
   font-size: 5em;
   padding: 8px;
 }
+/* 
+
+.social-links  a:hover 
+.social-links  a:hover {
+  color: rgb(235, 114, 66);
+} */
 
 
 /*project page*/
