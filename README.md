@@ -16,14 +16,12 @@ This website is using full react development app
 
 •	Javascript 
 
-•	Heroku 
+•	Deploy to Heroku 
 
 •	Bootstrap 
 
-•	Nodejs 
 
 
 # Direct to the link 
 
 https://blooming-anchorage-10847.herokuapp.com/
-
