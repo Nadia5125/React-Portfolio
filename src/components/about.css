@@ -1,0 +1,13 @@
+/* body {
+    background-color: whitesmoke;
+} */
+
+
+.container {
+    background-color: rgb(23, 51, 78); 
+    position: relative;
+    color: white;
+    height: 300px;
+    margin-top: 200px;    
+} 
+

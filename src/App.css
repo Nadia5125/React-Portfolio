@@ -133,6 +133,12 @@ h3 {
   left: 430px;
 }
 
+/*this for the contact page*/
+.contact-body {
+  position: relative;
+  margin-top: 50px;
+}
+
 .contact {
   position: relative;
   font-family: Italic;
@@ -145,7 +151,7 @@ h3 {
   position: relative; 
   opacity: .8;
   width: 55%;
-  height: 50%;
+  height: 55%;
   margin: 10px;
   margin-left: 185px;
   border-radius: 10px;    
