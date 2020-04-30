@@ -141,14 +141,16 @@ h3 {
 }
 
 .banner-text {
-  background-color: rgb(23, 51, 78);  
+  background-color: rgb(23, 51, 78); 
+  position: relative; 
   opacity: .8;
   width: 55%;
-  height: 45%;
+  height: 50%;
   margin: 10px;
   margin-left: 185px;
   border-radius: 10px;    
   margin-bottom: 80px;
+  top: 15px;
 }
 
 .banner-text h1 {

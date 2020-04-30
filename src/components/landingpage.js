@@ -16,7 +16,8 @@ class Landing extends Component {
                 />
             </div>
 
-            <div className="banner-text" style={{ width: '80%'}}>
+            <div className="banner-text" style={{ width: '80%', padding: '5px'}}>
+              <br></br>
               <h1 style={{fontSize: '20px', fontFamily: 'Italic'}}>Nadia</h1>
               <h1 style={{fontSize: '20px', fontFamily: 'Italic'}}>Full Stack Web Developer</h1>
             <hr/> 
